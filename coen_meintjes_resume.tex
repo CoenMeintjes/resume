@@ -64,6 +64,16 @@
   }
 }
 
+\newcommand{\resumeSkillItem}[3]{
+  \item\small{
+    \textbf{#1{ - \textit{#2} }}{: #3 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubItem}[2]{
+  \resumeItem{#1}{#2}\vspace{-4pt}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -77,8 +87,6 @@
     \textit{\small#1} & \textit{\small #2} \\
   \end{tabular*}\vspace{-5pt}
 }
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -100,9 +108,110 @@
   
 \end{tabular*}
 
+%-----------SUMMARY-----------------
+\section{Summary}
+
+I am a dedicated and passionate individual with a sincere interest in the field of data, driven by my inquisitive mind and highly analytical view of the world. Through a lifelong commitment to learning and personal growth, I have honed the ability to swiftly translate theory into practice. Additionally, my refined attention to detail empowers me to meticulously analyze and interpret complex information, consistently guiding my decision-making process. I thrive in collaborative environments that foster knowledge sharing, and I actively contribute as a team player.
+
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+
+  % \begin{inlineitemize} THIS IS INLINE FORMATTED TO TAKE UP THE LEAST SPACE
+
+  %   \item \textbf{Programming:} \small{Proficient in Python, Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, SQL, Git}
+  %   \item \textbf{Data Visualization:} \small{Skilled with Tableau, Power BI, Excel, Looker}
+  %   \item \textbf{Machine Learning:} \small{Experience in various techniques; linear and logistic regression, Naive Bayes, K-means, decision trees, random forest, gradient boosting.}
+  %   \item \textbf{Statistical Analysis:} \small{Familiar with hypothesis testing, ancova, manova and mancova}
+  %   \item \textbf{Cloud Platforms:} \small{Familiar with GCP, Azure}
+    
+  % \end{inlineitemize}
+
+  % \resumeSubHeadingListStart BULLET POINT FORMATTED FOR EASY READING
+
+  %   \resumeSubItem{Programming}
+  %     {Proficient in Python, SQL, Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, Git} 
+  %   \resumeSubItem{Data Visualization}
+  %     {Skilled with Tableau, Power BI, Excel, Looker Studio} 
+  %   \resumeSubItem{Machine Learning}
+  %     {Experience with regression, Naive Bayes, K-means, random forest, gradient boosting.}
+  %   \resumeSubItem{Statistical Analysis}
+  %     {Familiar with hypothesis testing}
+  %   \resumeSubItem{Cloud Platforms}
+  %     {Familiar with GCP(APIs)}
+
+  % \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+
+    \resumeSubheading{Programming}{}
+    {Skilled in programming with a focus on Python and SQL. Experience in Git and GitHub for version control.}{}
+    \resumeItemListStart
+      \resumeSkillItem{Python}{0.5 yrs}{Proficient in data discovery, structuring, cleaning, joining and validation. Skilled in exploratory data analysis employing Pandas, Numpy, Matplotlib, Seaborn}
+      \resumeSkillItem{SQL}{0.5 yrs}{Proficient in modelling, creation and querying SQL databases using SQLite and Python}
+      \resumeSkillItem{Git}{0.5 yrs}{Experienced in using Git and GitHub for personal projects and portfolio}
+    \resumeItemListEnd
+    
+    \resumeSubheading{Data Visualization and Tools}{}
+    {Proficient in utilizing the following tools to effectively communicate data insights:}{}
+    \resumeItemListStart
+      \resumeSkillItem{Power BI}{0.5 yrs}{Practical experience in building dashboards for financial market analysis through work with Investor Relations Exchange.}
+      \resumeSkillItem{Tableau}{0.5 yrs}{Utilized Tableau as part of the Google Advanced Data Analytics Certificate program.}
+      \resumeSkillItem{Excel}{6 yrs}{Extensively proficient in utilizing formulas, performing data cleaning and structuring, creating pivot tables, indexing and utilizing various other functionalities.}
+      \resumeSkillItem{Looker Studio}{2 yrs}{Utilized Looker Studio to visualize Google Analytics and YouTube metrics during analytics role with Pure Structure Trading.}
+    \resumeItemListEnd
+    
+    \resumeSubheading{Machine Learning}{}
+    {Obtained practical experience in the field through the completion of the Google Advanced Data Analytics Certificate.}{}
+    \resumeItemListStart
+      \resumeSkillItem{Supervised and Unsupervised Learning}{0.5 yrs}{Competent in all stages of the machine learning process, including planning, data preparation, model construction, tuning, and reporting. Proficient in a variety of techniques: Regression, Naive Bayes, K-means, Random Forest and Gradient Boosting.}
+      \resumeSkillItem{Machine Learning Software}{0.5 yrs}{Proficient in utilizing Python for machine learning tasks. Gained practical experience with popular data science packages including Scikit-learn, Statsmodels, and XGBoost.}
+    \resumeItemListEnd
+
+    \resumeSubheading{Cloud Platforms}{}
+    {Demonstrated practical expertise in leveraging cloud platforms for data analysis and management.}{}
+    \resumeItemListStart
+      \resumeSkillItem{Google Cloud Platform}{0.5 yrs}{Experience utilizing Google Cloud Platform APIs to parse Gmail data and retrieve YouTube metrics data for analysis}
+      \resumeSkillItem{Amazon Web Services}{0 yrs}{Currently pursuing AWS Certified Cloud Practitioner certification, actively expanding knowledge and skills in the AWS ecosystem. \textcolor{red}{ask monique what is more important SQL course or cloud}}
+    \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+  
+
+%-----------PROJECTS-----------------
+\section{Projects}
+
+  \resumeSubHeadingListStart 
+
+    \resumeSubItem{\href{https://github.com/CoenMeintjes/PropScout}{PropScout}}
+      {Strengthened proficiency in utilizing Python to interact with Google APIs for data retrieval, web data scraping, and parsing, as well as SQL for data storage and performing database queries. Leveraged GitHub for effective version control and seamless collaboration.} \href{https://github.com/CoenMeintjes/PropScout}{\textit{(GitHub)}}
+
+    \resumeSubItem{\href{https://github.com/CoenMeintjes/analysing_south_african_property_markets}{Real Estate Market Analysis}}
+      {Significantly improved proficiency in data discovery, structuring, cleaning, joining, and validation using public data sources. Leveraged Excel for comprehensive data analysis, visualization, and deriving valuable insights for property market analysis.} \href{https://github.com/CoenMeintjes/analysing_south_african_property_markets}{\textit{(GitHub)}}
+      
+    \resumeSubItem{\href{https://github.com/CoenMeintjes/data_science_notebook_templates}{Data Science Notebook Collection}}
+      {Enhanced productivity and efficiency by creating comprehensive Jupyter Notebook templates, optimizing personal workflows for exploratory data analysis (EDA), hypothesis testing, regression models, and machine learning tasks} \href{https://github.com/CoenMeintjes/data_science_notebook_templates}{\textit{(GitHub)}}
+
+
+    \resumeSubItem{\href{https://github.com/CoenMeintjes/predicting_employee_churn_salifort_motors}{Predicting Employee Churn}}
+      {Improved proficiency in performing thorough exploratory data analysis (EDA), building accurate predictive models, and extracting valuable insights from company datasets. Utilized Python, Pandas, Matplotlib, Seaborn, Scikit-Learn, and XGBoost.} \href{https://github.com/CoenMeintjes/predicting_employee_churn_salifort_motors}{\textit{(GitHub)}}
+        
+    \resumeSubItem{\href{https://github.com/CoenMeintjes/google_advanced_data_analytics_certificate_projects}{Google Advanced Data Analytics Projects}}
+      {Demonstrates proficiency in diverse data analytics techniques, including data inspection, exploratory data analysis (EDA), statistical analysis, and machine learning. Utilized Python as the primary tool to execute tasks and extract meaningful insights from real-world scenarios.}\href{https://github.com/CoenMeintjes/google_advanced_data_analytics_certificate_projects}{\textit{(GitHub)}}
+
+    \resumeSubItem{\href{https://github.com/CoenMeintjes/property_investment_analysis_framework}{Property Deal Analysis Framework}}
+      {Expanded my analytical thinking and enhanced proficiency in Excel for data analysis by designing comprehensive frameworks for evaluating property investments and making data-driven decisions} \href{https://github.com/CoenMeintjes/property_investment_analysis_framework}{\textit{(GitHub)}}
+
+  \resumeSubHeadingListEnd
+
+
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\textcolor{red}{Add a cloud / SQL course here}}{Online}
+      {short description of the course and aim for doing it}{Jul. 2023 -- present}
   
     \resumeSubheading
       {Coursera}{Online}
@@ -112,10 +221,10 @@
         \resumeItem{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/T7KKS2AB9TKF}{Google Advanced Data Analytics}}
           {Data Science Foundations, Python for Data, Exploratory Data Analysis, Statistical Analysis, Regression Analysis, Machine Learning. \href{https://www.coursera.org/account/accomplishments/specialization/certificate/T7KKS2AB9TKF}{\textit{(Verified certificate)}}}
         \resumeItem{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/5U8MB5RW7KGU}{Python for Everybody}}
-          {Data Structures, Accessing Web Data, JSON \& XML, Networked Application Program Interfaces, Database design, SQL. \href{https://www.coursera.org/account/accomplishments/specialization/certificate/5U8MB5RW7KGU}{\textit{(Verified certificate)}}}
+          {Data Structures, Accessing Web Data, JSON and XML, Networked Application Program Interfaces, Database design, SQL. \href{https://www.coursera.org/account/accomplishments/specialization/certificate/5U8MB5RW7KGU}{\textit{(Verified certificate)}}}
         \resumeItem{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/T774YZFKVQ2Q}{Excel Skills for Business}} 
           {Excel Business Applications, Data Validation, Pivot Tables, Dashboard creation, Advanced Formula Use, Automation with VBA macros. \href{https://www.coursera.org/account/accomplishments/specialization/certificate/T774YZFKVQ2Q}{\textit{(Verified certificate)}}}
-        \resumeItem{\href{https://www.coursera.org/account/accomplishments/certificate/JNFNEVCJ54D4}{Introduction to Git \& GitHub}}
+        \resumeItem{\href{https://www.coursera.org/account/accomplishments/certificate/JNFNEVCJ54D4}{Introduction to Git and GitHub}}
           {Version Control Systems, Using Git, Collaborating on GitHub, Reverting Changes, Creating Pull Requests.  \href{https://www.coursera.org/account/accomplishments/certificate/JNFNEVCJ54D4}{\textit{(Verified certificate)}}}
       \resumeItemListEnd
 
@@ -136,6 +245,7 @@
       {Bachelor of Technology Architecture: Professional}{Jan. 2008 -- Dec. 2011}
 
   \resumeSubHeadingListEnd
+ 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -143,113 +253,57 @@
 
     \resumeSubheading
       {\href{http://irx.exchange/metals-gold}{Investor Relations Exchange}}{Cape Town, South Africa (remote)}
-      {Freelance: ETL, Data Visualization, Product Development}{Feb. 2023 - present}
+      {Junior Data Analyst: Gaining practical data experience by assisting a startup.}{Feb. 2023 - present (adhoc)}
       
       \resumeItemListStart
-        \resumeItem{ETL}
-          {Enhanced data analysis processes by establishing connections to API data feeds in Power BI, enabling seamless data loading, transformation, and access to a diverse range of datasets.}
-        \resumeItem{Power BI}
-          {Created interactive dashboards for mutual fund and gold market charts driving better data-driven decision-making. Implemented DAX formulas to enhance data visualizations and insights.}
-        \resumeItem{Product Development}
-          {Collaborated with the client to strategise and develop financial data visualizations, leading to improved market analysis capabilities for investors.}
-        \resumeItem{Data Updates}
-          {Implemented an automated data update process, ensuring up-to-date information availability always ready for analysis.}
+        \resumeItem{Dashboard Development}
+          {Collaborated with the founder to strategise and develop financial data visualizations that would enhance market analysis capabilities for investors.}
+        \resumeItem{Data Pipeline/ETL}
+          {Streamlined data analysis by connecting to JSON API data feeds, enabling seamless data loading, transformation, and access to diverse datasets. Automated the data updating process to ensure up-to-date information for analysis.}
+        \resumeItem{Dashboard Construction}
+          { Created interactive Power BI dashboards for financial market analysis, enabling data-driven decision-making. Implemented DAX expressions to enhance data visualizations and help investors to derive valuable insights.}
       \resumeItemListEnd
 
     \resumeSubheading
       {\href{http://purestructuretrading.com/education}{Pure Structure Trading }}{Kapolei, HI, USA (remote)}
-      {Freelance: Data Analysis, Web Development, Content Creation}{Oct. 2020 - present}
+      {Junior Analytics Analyst: Analysis experience gained while working as web developer.}{Oct. 2020 - present (contract)}
       
       \resumeItemListStart
-        \resumeItem{Data Analysis}
-          {Analysed website, YouTube, and newsletter metrics using Looker and Excel, providing actionable insights and recommendations in reports. Enabled content recommendations that maintained the top-performing YT video for over two years.}
+        \resumeItem{Monthly Analytics Reporting}
+          {Utilized Looker and Excel to analyze website, YouTube, and newsletter metrics, providing actionable insights and recommendations. Contributed to the longevity of a top-performing YouTube videos through content recommendations}
         \resumeItem{Web Development}
-          {Developed and maintained company website on WordPress, driving business promotion, educational program sales, and delivery of learning material.}
-        \resumeItem{Workflows}
-          {Integrated plugins and tools like MemberPress and Zapier for membership management and workflow automation in content distribution and communication significantly reducing manual efforts.}
-        \resumeItem{Content Production}
-          {Published finance and trading related web content and newsletters leveraging technical market analysis to convey market insights to subscribers.}
+          {Leveraged a mix of theme templates and custom CSS to develop and maintain the company website on WordPress, driving business promotion, educational program sales, and content delivery.}
+        \resumeItem{Workflow Automation}
+          {Streamlined workflows and reduced manual efforts through the integration of tools like MemberPress and Zapier, automating tasks related to membership management, content distribution, and communication.}
+        \resumeItem{Content Publishing}
+          {Created and published finance and trading-related web content and newsletters, leveraging technical market analysis to deliver valuable market insights to subscribers.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Independent Fund Manager}{Cape Town, South Africa}
-      {Market Analyst, Strategy Development, Risk Management}{May. 2019 - present}
+      {Self-Employed}{Cape Town, South Africa}
+      {Junior Market Analyst: Leveraged technical market analysis to manage private fund.}{May. 2019 - Jan 2023}
       
       \resumeItemListStart
-        \resumeItem{Strategy and Systems Development}
-          {Devised and implemented analysis-driven trading strategies to capitalise on opportunities in the US Equity and WTI Crude Oil Futures Markets. Best-performing strategy achieved a 43\% win rate with 1.8:1 risk-reward ratio over 163 live market trades.}
-        \resumeItem{Data Analysis}
-          {Implemented comprehensive data capturing systems and maintained regular analysis of results. Leveraged insights to refine the strategic approaches and enhance decision-making processes.}
+        \resumeItem{Strategy \& Systems Development}
+          {Devised and implemented analysis-driven trading strategies to capitalise on opportunities in the US Equity and WTI Crude Oil Futures Markets. Best-performing strategy achieved a 43\% win rate with 1.8:1 risk-reward ratio over 163 live trades.}
+        \resumeItem{Data Management \& Performance Analysis}
+          {Implemented robust data capturing systems and conducted regular performance analysis to refine strategic approaches and improve the decision-making processes.}
         \resumeItem{Algorithmic Trading}
-          {Automated manual trading strategies by developing and implementing Python-based quantitative systems, enhancing efficiency and reducing the risk of human error in trade execution.}
+          {Streamlined operations by developing Python-based quantitative systems, automating manual strategies to enhance efficiency, minimize human error, and optimize trade execution.}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {\href{https://tararokpacentre.co.za/about-tikologo/}{Tara Rokpa Center}}{Groot Marico, South Africa}
-      {Project Director - Tikologo Permaculture Project}{Jan. 2014 - Dec. 2019}
+    % \resumeSubheading
+    %   {\href{https://tararokpacentre.co.za/about-tikologo/}{Tara Rokpa Center}}{Groot Marico, South Africa}
+    %   {Project Director - Tikologo Permaculture Project}{Jan. 2014 - Dec. 2019}
       
-      \resumeItemListStart
-        \resumeItem{Project Design and Implementation}
-          {Directed the master planning and design of a 30ha regenerative agriculture and education site encompassing land-use designation, water security planning, crop planning, and infrastructure development. Effectively executed the project, resulting in an operational demonstration site still fostering sustainable agricultural practices and environmental education.}
-        \resumeItem{Fundraising and Grant Management}
-          {Secured ZAR 1.1 million in project funding from international donors between 2017-2019. Effectively managed the allocated funds, ensuring proper allocation, timely payments, and comprehensive financial reporting.}
-        \resumeItem{Team Leader and Project Coordination}
-          {Led a team of seven in the construction of an earth building while cultivating a collaborative and motivated work environment. Effectively guided the team to complete a residence which stands as a prominent model for local sustainable construction practices. Provided mentorship, training, and support to ensure exceptional workmanship and overall project success.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-
-%--------TECHNICAL SKILLS------------
-\section{Technical Skills}
-
-  % \begin{inlineitemize}
-
-  %   \item \textbf{Programming:} \small{Proficient in Python, Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, SQL, Git}
-  %   \item \textbf{Data Visualization:} \small{Skilled with Tableau, Power BI, Excel, Looker}
-  %   \item \textbf{Machine Learning:} \small{Experience in various techniques; linear and logistic regression, Naive Bayes, K-means, decision trees, random forest, gradient boosting.}
-  %   \item \textbf{Statistical Analysis:} \small{Familiar with hypothesis testing, ancova, manova \& mancova}
-  %   \item \textbf{Cloud Platforms:} \small{Familiar with GCP, Azure}
-    
-  % \end{inlineitemize}
-
-  \resumeSubHeadingListStart
-
-    \resumeSubItem{Programming}
-      {Proficient in Python, Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, SQL, Git} 
-    \resumeSubItem{Data Visualization}
-      {Skilled with Tableau, Power BI, Excel, Looker} 
-    \resumeSubItem{Machine Learning}
-      {Experience with regression, Naive Bayes, K-means, random forest, gradient boosting.}
-    \resumeSubItem{Statistical Analysis}
-      {Familiar with hypothesis testing, ancova, manova \& mancova}
-    \resumeSubItem{Cloud Platforms}
-      {Familiar with GCP(APIs)}
-
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-
-    \resumeSubItem{\href{https://github.com/CoenMeintjes/PropScout}{PropScout}}
-      {Exciting real estate investment app designed to empower investors and enable them to thrive in the dynamic property market. \href{https://github.com/CoenMeintjes/PropScout}{\textit{(GitHub)}}} 
-
-    \resumeSubItem{\href{https://github.com/CoenMeintjes/analysing_south_african_property_markets}{Real Estate Market Analysis}}
-      {Extensive property market analysis utilizing public data and data-driven approaches to identify potentially lucrative investment locations. \href{https://github.com/CoenMeintjes/analysing_south_african_property_markets}{\textit{(GitHub)}}}
-    
-    \resumeSubItem{\href{https://github.com/CoenMeintjes/property_investment_analysis_framework}{Property Deal Analysis Framework}}
-      {Creating a standardized framework for evaluating property investments, enabling investors to make informed decisions and establish a consistent process for success. \href{https://github.com/CoenMeintjes/property_investment_analysis_framework}{\textit{(GitHub)}}}
-
-    \resumeSubItem{\href{https://github.com/CoenMeintjes/predicting_employee_churn_salifort_motors}{Predicting Employee Churn}}
-      {In-depth analysis of employee churn factors, including exploratory data analysis (EDA) and the development of predictive models to gain insights and forecast employee turnover. \href{https://github.com/CoenMeintjes/predicting_employee_churn_salifort_motors}{\textit{(GitHub)}}}
-        
-    \resumeSubItem{\href{https://github.com/CoenMeintjes/google_advanced_data_analytics_certificate_projects}{Google Advanced Data Analytics Projects}}
-      {A collection of projects completed as part of the Google Advanced Data Analytics Certificate program, covering a wide range of topics including data inspection, exploratory data analysis (EDA), statistical analysis, and machine learning.\href{https://github.com/CoenMeintjes/google_advanced_data_analytics_certificate_projects}{\textit{(GitHub)}}}
-
-    \resumeSubItem{\href{https://github.com/CoenMeintjes/data_science_notebook_templates}{Data Science Notebook Collection}}
-      {A comprehensive collection of Jupyter Notebook templates for data science tasks, developed to improve workflow efficiency and cover a wide range of topics, including exploratory data analysis, hypothesis testing, regression models, and machine learning models. \href{https://github.com/CoenMeintjes/data_science_notebook_templates}{\textit{(GitHub)}}}
+    %   \resumeItemListStart
+    %     \resumeItem{Project Design and Implementation}
+    %       {Directed the master planning and design of a 30ha regenerative agriculture and education site encompassing land-use designation, water security planning, crop planning, and infrastructure development. Effectively executed the project, resulting in an operational demonstration site still fostering sustainable agricultural practices and environmental education.}
+    %     \resumeItem{Fundraising and Grant Management}
+    %       {Secured ZAR 1.1 million in project funding from international donors between 2017-2019. Effectively managed the allocated funds, ensuring proper allocation, timely payments, and comprehensive financial reporting.}
+    %     \resumeItem{Team Leader and Project Coordination}
+    %       {Led a team of seven in the construction of an earth building while cultivating a collaborative and motivated work environment. Effectively guided the team to complete a residence which stands as a prominent model for local sustainable construction practices. Provided mentorship, training, and support to ensure exceptional workmanship and overall project success.}
+    %   \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
@@ -258,7 +312,7 @@
 % \section{Transferable Skills}
 %   \begin{inlineitemize}
 
-%     \item \textbf{From Prior Work Experience:} \small{Project Management, Problem Solving, Project Documentation, Proposal \& Report Writing, Accounting \& Bookeeping, CAD Draughting.}
+%     \item \textbf{From Prior Work Experience:} \small{Project Management, Problem Solving, Project Documentation, Proposal and Report Writing, Accounting and Bookeeping, CAD Draughting.}
       
 %   \end{inlineitemize}
 
