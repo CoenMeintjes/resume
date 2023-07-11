@@ -6,3 +6,4 @@
 *.fdb_latexmk
 *.gz
 *.synctex(busy)
+older_versions/
