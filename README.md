@@ -1,34 +1,41 @@
-# Coen Meintjes
+# Coen Meintjes | Junior Data Professional 
 
-## Data Professional | Freelance Analyst | Data Science Enthusiast
+Welcome to my GitHub resume! I am Coen, a dedicated and passionate individual with a sincere interest in the field of data, driven by my inquisitive mind and highly analytical view of the world. Through a lifelong commitment to learning and personal growth, I have honed the ability to swiftly translate theory into practice. Additionally, my refined attention to detail empowers me to meticulously analyse and interpret complex information, consistently guiding my decision-making process. I thrive in collaborative environments that foster knowledge sharing, and I actively contribute as a team player.
 
----
+## Top Skills
 
-I have a strong background in data analytics, a passion for problem-solving, and a proven track record of delivering impactful insights, I believe that I can contribute to your data team's success.
+**Programming**
+- Python
+- SQL
+- Git
 
-### Education and Skills
+**Data Visualization & Tools**
+- Power BI
+- Tableau
+- Microsoft Excel
+- Looker Studio
 
-I have completed a comprehensive variety of courses through Coursera, acquiring the skills of a data professional. My coursework includes the Google Advanced Data Analytics program, where I gained expertise in data science foundations, Python for data analysis, exploratory data analysis, statistical analysis, regression analysis, and machine learning. Additionally, I have developed proficiency in Python, Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, SQL, and Git. I am also skilled in data visualization using tools such as Tableau, Power BI, Excel, and Looker.
+**Machine Learning**
+- Supervised and Unsupervised Learning
+- Various Machine Learning Software
 
-### Experience and Accomplishments
+**Cloud Platforms**
+- Google Cloud Platform
 
-In my role as a freelance analyst at Investor Relations Exchange, I enhanced data analysis processes by establishing connections to API data feeds in Power BI, enabling seamless data loading, transformation, and access to diverse datasets. I created interactive dashboards, implemented DAX formulas, and collaborated with the client to develop financial data visualizations that empowered investors in making data-driven decisions. I also implemented automated data update processes to ensure up-to-date information availability for analysis.
+## Work Experience
 
-As a freelance data analyst at Pure Structure Trading, I analyzed website, YouTube, and newsletter metrics using Looker and Excel to provide actionable insights and recommendations. I developed and maintained the company's website on WordPress, integrated workflow automation tools, and produced finance and trading-related content leveraging technical market analysis.
+I invite you to visit my [LinkedIn](https://www.linkedin.com/in/coen-meintjes) profile for a comprehensive overview of my current work experience and professional achievements.
 
-In my current role as an independent fund manager, I have developed and implemented analysis-driven trading strategies in the US Equity and WTI Crude Oil Futures markets. My best-performing strategy achieved a 43% win rate with a 1.8:1 risk-reward ratio over 163 live market trades. I have also leveraged comprehensive data analysis and implemented Python-based quantitative systems for algorithmic trading, enhancing efficiency and reducing the risk of human error in trade execution.
+## Projects
 
-### Projects and Contributions
+Here are some notable projects I have worked on:
 
-Throughout my career, I have worked on several data-driven projects that showcase my expertise. These include:
+- [PropScout](https://github.com/CoenMeintjes/PropScout)
+- [Real Estate Market Analysis](https://github.com/CoenMeintjes/analysing_south_african_property_markets)
+- [Data Science Notebook Collection](https://github.com/CoenMeintjes/data_science_notebook_templates)
 
-- [PropScout](https://github.com/CoenMeintjes/PropScout): An exciting real estate investment app designed to empower investors and enable them to thrive in the dynamic property market.
-- [Real Estate Market Analysis](https://github.com/CoenMeintjes/RealEstateMarketAnalysis): An extensive property market analysis utilizing public data and data-driven approaches to identify potentially lucrative investment locations.
-- [Property Deal Analysis Framework](https://github.com/CoenMeintjes/PropertyDealAnalysisFramework): A standardized framework for evaluating property investments, enabling investors to make informed decisions and establish a consistent process for success.
-- [Predicting Employee Churn](https://github.com/CoenMeintjes/PredictingEmployeeChurn): In-depth analysis of employee churn factors, including exploratory data analysis (EDA) and the development of predictive models to gain insights and forecast employee turnover.
-- [Google Advanced Data Analytics Projects](https://github.com/CoenMeintjes/GoogleAdvancedDataAnalyticsProjects): A collection of projects completed as part of the Google Advanced Data Analytics Certificate program, covering a wide range of topics including data inspection, exploratory data analysis (EDA), statistical analysis, and machine learning.
-- [Data Science Notebook Collection](https://github.com/CoenMeintjes/DataScienceNotebookCollection): A comprehensive collection of Jupyter Notebook templates for data science tasks, developed to improve workflow efficiency and cover a wide range of topics, including exploratory data analysis, hypothesis testing, regression models, and machine learning models.
+Feel free to explore these projects and delve into the details of my work.
 
-### Passion and Dedication
+## Contact
 
-I am truly passionate about leveraging data to drive meaningful insights and create actionable solutions. My commitment to continuous learning and staying up-to-date with the latest industry trends allows me to deliver impactful results. I thrive in a collaborative and dynamic environment, and I am confident that my technical skills, analytical mindset, and strong attention to detail make me an ideal fit for your team.
+You can reach me via the details provided on my resume or through [LinkedIn](https://www.linkedin.com/in/coen-meintjes). I'm always open to new opportunities and collaboration.
