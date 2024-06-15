@@ -1,4 +1,4 @@
-# Coen Meintjes | Junior Data Professional 
+# Coen Meintjes | Data Professional 
 
 Welcome to my GitHub resume! I am Coen, a dedicated and passionate individual with a sincere interest in the field of data, driven by my inquisitive mind and highly analytical view of the world. Through a lifelong commitment to learning and personal growth, I have honed the ability to swiftly translate theory into practice. Additionally, my refined attention to detail empowers me to meticulously analyse and interpret complex information, consistently guiding my decision-making process. I thrive in collaborative environments that foster knowledge sharing, and I actively contribute as a team player.
 
@@ -10,6 +10,7 @@ Welcome to my GitHub resume! I am Coen, a dedicated and passionate individual wi
 - Git
 
 **Data Visualization & Tools**
+- Pyramid Analytics
 - Power BI
 - Tableau
 - Microsoft Excel
@@ -20,6 +21,7 @@ Welcome to my GitHub resume! I am Coen, a dedicated and passionate individual wi
 - Various Machine Learning Software
 
 **Cloud Platforms**
+- Microsoft Azure
 - Google Cloud Platform
 
 ## Work Experience
