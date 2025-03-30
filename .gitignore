@@ -6,5 +6,4 @@
 *.fdb_latexmk
 *.gz
 *.synctex(busy)
-*.pdf
 older_versions/
