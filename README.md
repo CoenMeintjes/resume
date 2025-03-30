@@ -1,6 +1,10 @@
-# Coen Meintjes | Data Professional 
+Here’s the updated version of your README file based on your revised resume:
 
-Welcome to my GitHub resume! I am Coen, a dedicated and passionate individual with a sincere interest in the field of data, driven by my inquisitive mind and highly analytical view of the world. Through a lifelong commitment to learning and personal growth, I have honed the ability to swiftly translate theory into practice. Additionally, my refined attention to detail empowers me to meticulously analyse and interpret complex information, consistently guiding my decision-making process. I thrive in collaborative environments that foster knowledge sharing, and I actively contribute as a team player.
+---
+
+# Coen Meintjes | Data Professional
+
+I am Coen, a Business Intelligence Analyst at SweepSouth with a strong background in harnessing SQL, Python, Sisense, and automation tools to deliver actionable insights that streamline operations and propel strategic growth. I am passionate about leveraging data to unlock business potential and drive measurable success. With a focus on transforming stakeholder requirements into powerful BI solutions, I thrive in environments that foster collaboration and continuous learning.
 
 ## Top Skills
 
@@ -10,15 +14,16 @@ Welcome to my GitHub resume! I am Coen, a dedicated and passionate individual wi
 - Git
 
 **Data Visualization & Tools**
-- Pyramid Analytics
+- Sisense
 - Power BI
 - Tableau
 - Microsoft Excel
 - Looker Studio
 
-**Machine Learning**
-- Supervised and Unsupervised Learning
-- Various Machine Learning Software
+**Data Analysis & Business Intelligence**
+- Data Transformation & ETL
+- Dashboard Design and Reporting
+- Business Insights Generation
 
 **Cloud Platforms**
 - Microsoft Azure
@@ -26,7 +31,10 @@ Welcome to my GitHub resume! I am Coen, a dedicated and passionate individual wi
 
 ## Work Experience
 
-I invite you to visit my [LinkedIn](https://www.linkedin.com/in/coen-meintjes) profile for a comprehensive overview of my current work experience and professional achievements.
+I invite you to visit my [LinkedIn](https://www.linkedin.com/in/coen-meintjes) profile for a comprehensive overview of my current work experience and professional achievements. Some of my key accomplishments include:
+
+- Building a suite of dashboards to monitor new product vertical launches.
+- Developing analytics-driven automation that significantly reduced lost sales.
 
 ## Projects
 
