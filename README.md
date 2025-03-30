@@ -1,6 +1,6 @@
 # Coen Meintjes | Data Professional
 
-I am Coen, a Business Intelligence Analyst at SweepSouth with a strong background in harnessing SQL, Python, Sisense, and automation tools to deliver actionable insights that streamline operations and propel strategic growth. I am passionate about leveraging data to unlock business potential and drive measurable success. With a focus on transforming stakeholder requirements into powerful BI solutions, I thrive in environments that foster collaboration and continuous learning.
+Business Intelligence Analyst at SweepSouth with a strong background in harnessing SQL, Python, Sisense, and automation tools to deliver actionable insights that streamline operations and propel strategic growth. I am passionate about leveraging data to unlock business potential and drive measurable success. With a focus on transforming stakeholder requirements into powerful BI solutions, I thrive in environments that foster collaboration and continuous learning.
 
 ## Top Skills
 
