@@ -27,7 +27,7 @@ Business Intelligence Analyst at SweepSouth with a strong background in harnessi
 
 ## Work Experience
 
-I invite you to visit my [LinkedIn](https://www.linkedin.com/in/coen-meintjes) profile for a comprehensive overview of my current work experience and professional achievements. Some of my key accomplishment include:
+I invite you to visit my [LinkedIn](https://www.linkedin.com/in/coen-meintjes) profile for a comprehensive overview of my current work experience and professional achievements. Some of my key accomplishments include:
 
 - Building a suite of dashboards to monitor new product vertical launches.
 - Developing analytics-driven automation that significantly reduced lost sales.
